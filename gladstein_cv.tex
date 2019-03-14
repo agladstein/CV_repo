@@ -1,0 +1,262 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\name{Ariella Gladstein} % Your name
+%\address{} % Your address
+\address{(202)~$\cdot$~258~$\cdot$~4408 \\ algladstein@gmail.com \\ github.com/agladstein} % Your phone number and email
+
+\renewenvironment{rSection}[1]{
+\sectionskip
+\textcolor{RoyalPurple}{\MakeUppercase{#1}}
+\sectionlineskip
+\hrule
+\begin{list}{}{
+\setlength{\leftmargin}{1.5em}
+}
+\item[]
+}{
+\end{list}
+}
+
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\textcolor{RoyalPurple}{\bf Expertise:}
+\textcolor{RoyalPurple}{\em Human population genetics, genomics, computational biology, bioinformatics, statistics}
+
+\begin{rSection}{Education}
+
+{\bf University of Arizona, Tucson, AZ} \hfill {\em August 2018} \\ 
+PhD in Ecology and Evolutionary Biology \\
+Minor in Mathematics 
+
+{\bf Beloit College, Beloit, WI} \hfill {\em May 2011} \\ 
+B.S. in Mathematical Biology \& Russian, Cum Laude \smallskip \\
+Departmental Honors: Mathematical Biology
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Research EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research Experience}
+
+{\bf Postdoctoral Fellowship} \hfill  2018 - present\\ 
+{\em Schrider Lab} \hfill {\em Department of Genetics, University of North Carolina, Chapel Hill}\\
+Project: Inference of demographic history with deep learning
+
+{\bf Dissertation Research} \hfill  2011 - 2018\\ 
+{\em Hammer Lab} \hfill {\em Ecology and Evolutionary Biology, University of Arizona}\\
+Dissertation: Inference of recent demographic history of population isolates using genome-wide high density SNP arrays and whole genome sequences
+
+{\bf Functional Genomics Research Rotation} \hfill  Spring 2012\\ 
+{\em Restifo Lab} \hfill {\em Neuroscience, University of Arizona}
+
+{\bf Computational Genomics Research Rotation} \hfill  Fall 2011\\ 
+{\em Kececioglu Lab} \hfill {\em Computer Science, University of Arizona}
+
+{\bf Lab technician intern} \hfill  Sp, Fall 2009\\ 
+{\em Laboratory of Population Genetics} \hfill {\em Russian Academy of Medical Sciences, Moscow, Russia}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	Skills
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming & Python, Bash, R, Perl (including unit testing and profiling)\\
+Other Computer & Linux command line, Git, HPC/HTC (with HTCondor, PBS, Slurm), \\ & cloud computing (OpenStack, AWS)  \\
+Genomics & PLINK, Bedtools, VCFtools, phasing, imputation, haplotype detection, \\ & population structure, genome simulation\\
+Data Science & Numpy, Scikit-learn, Keras, Pandas, Spark, Tidyverse, Matplotlib, ggplot\\
+Reproducibility & scripting, workflow development (Pegasus, Makeflow), containers \\ & (Singularity, Docker), Jupyter, Knitr \\
+Documentation & \LaTeX, Markdown, reStructuredText \\
+Language Skills & English (native speaker), Russian (fluent), Spanish (basic) \\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Awards, Scholarships, & Grants
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Awards}
+
+\item XSEDE Startup allocation (100,000 CPU hrs, 6,500 GPU hrs, 5.5 Tb storage) \hfill{\em 2019}
+\item XSEDE Supplemental allocation (200,000 CPU hrs) \hfill{\em 2018}
+\item XSEDE Startup allocation (150,000 CPU hrs) \hfill{\em 2017}
+\item Open Science Grid User School (travel, lodging, meals, cost of program) \hfill{\em 2017}
+\item GPSC Travel Grant (\$761) \hfill{\em 2015, 2016, 2017} 
+\item University of Arizona Galileo Circle Scholarship (\$1,000) \hfill{\em 2015} 
+\item NIH Computational and Mathematical Modeling of Biological Systems Traineeship (\$71,064) \hfill {\em 2013-2014}
+\item NSF Integrative Graduate Education and Research Traineeship in Genomics (\$97,083) \hfill {\em 2011-2013}
+\item Society for Learning Unlimited Grant (\$2,000) \hfill {\em Fall 2009}
+\item Study Abroad Enhancement Grant, Beloit College (\$250) \hfill {\em Spring 2009}
+\item Beloit College Presidential Scholar (\$60,000) \hfill {\em 2007-2011}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Publications
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Publications}
+
+\item Gladstein A.L. and Hammer M.F. 2019. Substructured population growth in the Ashkenazi Jews inferred with Approximate Bayesian Computation. \textit{Molecular Biology and Evolution}, msz047; doi: \url{https://dx.doi.org/10.1093/molbev/msz047}
+\item Gladstein A.L. et al. 2018. SimPrily: A Python framework to simplify high-throughput genomic simulations. SoftwareX, 7, 335–340. \url{https://doi.org/10.1016/j.softx.2018.09.003}
+%\item Gladstein A.L., Watkins J., and Hammer, M.F. 2018. Reliability of runs of homozygosity detection from SNP arrays depends on algorithmic choices. (in preparation).
+\item Gladstein A. and Hammer M.F. 2016. Population Genetics of the Ashkenazim. In: eLS. John Wiley \& Sons, Ltd: Chichester. pp. 1-8. \url{https://doi.org/10.1002/9780470015902.a0020818.pub2}
+\item Behar et al. 2013. No evidence from genome-wide data of a Khazar origin for the Ashkenazi Jews. \textit{Human Biology}. 85.6:859-900. \url{https://doi.org/10.3378/027.085.0604}
+\item Gladstein A.L. 2011. Split decomposition analysis groups Jewish populations together between European and Middle Eastern populations. \textit{The Beloit Biologist}. 30:29-36.
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Publications
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Posters and Presentations}
+
+\textbf{Invited Talks}
+\item Inference of evolutionary history with Approximate Bayesian Computation. Open Science Grid All-Hands Meeting. 2018. Salt Lake City, Utah.
+
+\item
+
+\textbf{Posters}
+\item Gladstein A.L., Hammer M.F. Substructured population growth in the Ashkenazi Jews inferred with Approximate Bayesian Computation. Probabilistic Modeling in Genomics. 2018. Cold Spring Harbor, NY.
+
+\item Gladstein A.L., et al. Efficient pipeline for whole genome simulation and summary statistic calculation with flexible demographic models. Meeting of the American Society for Human Genetics. 2017. Orlando, FL.
+
+\item Gladstein A.L., et al. The effect of SNP array ascertainment bias on the distribution of runs of homozygosity lengths. Annual Meeting of the American Society for Human Genetics. 2015. Baltimore, MD. 
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Project Management
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Project Management}
+
+\item Managed team of 5, including computer scientists, software engineer, and mathematician, \hfill {\em 2017}\\ 
+working on code development and high throughput computing for bioinformatics
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Workshops
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Workshops and Hackathons}
+
+\item NCBI RNA-Seq in the Cloud hackathon (3 days) \hfill {\em 03/2019}
+\item Cyber Carpentry (2 weeks) \hfill {\em 06/2018}
+\item XSEDE HPC Workshop: Big Data (2 days) \hfill {\em 02/2018}
+\item Open Science Grid User School (1 week) \hfill {\em 07/2017}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Community Service
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Community Service and Outreach}
+
+\item Helped with Research Bazaar workshop on R \hfill {\em 2018}
+\item Teaching assistant for CyVerse Container Camp \hfill {\em 2018}
+\item Active participant in the Research Bazaar \hfill {\em 2017, 2018}
+\item Helped with Software Carpentry on Unix/Bash, Python, and Git \hfill {\em 2017}
+\item Helped with the Tucson Women’s Hackathon workshop on Git \hfill {\em 2017}
+\item Judge for Graduate \& Professional Student Council Travel Grants \hfill {\em 2012, 2016, 2017, 2018}
+\item Judge for Tucson Magnet High School Science Fair \hfill {\em 2012, 2015}
+\item Taught Population Genetics Module at the Kino School \hfill {\em 2013}
+\item Arizona Assurance Mentor \hfill {\em 2012}
+\item Judge for EEB Undergraduate Research Poster Session \hfill {\em 2012}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Teaching Experience
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Teaching Experience}
+
+{\bf ECOL 320 Genetics} \hfill Fall 2014, 2015, 2016 \\ 
+{\em Graduate Teaching Assistant} \hfill {\em University of Arizona}
+
+{\bf ECOL 182L Intro to Ecology and Evolutionary Biology Lab} \hfill Spring 2015 \\ 
+{\em Graduate Teaching Assistant} \hfill {\em University of Arizona}
+
+{\bf BIOL 247 Biometrics} \hfill Spring 2011 \\ 
+{\em Teaching Assistant} \hfill {\em Beloit College}
+
+%{\bf RUSS 110, 115, 210, 215 Russian} \hfill 2009-2011 \\ 
+%{\em Tutor} \hfill {\em Beloit College}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Study Abroad
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Study Abroad}
+%
+%{\bf Lomonosov Moscow State University} \hfill Fall 2009 \\ 
+%{\em Biology Department} \hfill {\em Moscow, Russia}
+%
+%{\bf Russian State University for the Humanities} \hfill Spring 2009 \\ 
+%{\em Russian Studies} \hfill {\em Moscow, Russia}
+%
+%\end{rSection}
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Other Activities
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Other Activities}
+
+{\bf Circus Arts} \hfill 2012 - present \\ 
+{\em Aerial silks, aerial rope, lyra, flying trapeze, tightwire, handbalancing, contortion} 
+
+{\bf Figure Skating} \hfill 1998 - 2013 \\ 
+{\em Singles freestyle} 
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+
+
+\end{document}
