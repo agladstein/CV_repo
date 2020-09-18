@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 JUN 2020 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 SEP 2020 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -269,14 +269,14 @@ LaTeX Info: Redefining \nameref on input line 49.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
-* v-part:(T,H,B)=(43.36243pt, 708.24513pt, 43.36243pt)
+* v-part:(T,H,B)=(36.135pt, 722.7pt, 36.135pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=505.89pt
-* \textheight=708.24513pt
+* \textheight=722.7pt
 * \oddsidemargin=-18.06749pt
 * \evensidemargin=-18.06749pt
-* \topmargin=-65.90756pt
+* \topmargin=-73.135pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -338,7 +338,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
 Here is how much of TeX's memory you used:
  5874 strings out of 493089
  85707 string characters out of 6134842
- 185317 words of memory out of 5000000
+ 185303 words of memory out of 5000000
  9330 multiletter control sequences out of 15000+600000
  8719 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -353,7 +353,7 @@ ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on gladstein_cv.pdf (2 pages, 132886 bytes).
+Output written on gladstein_cv.pdf (2 pages, 132905 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream
