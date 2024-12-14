@@ -1,12 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 SEP 2021 15:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 DEC 2024 21:17
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**gladstein_cv.tex
-(./gladstein_cv.tex
+**/Users/agladsteinNew/Documents/Jobs/CV/CV_repo/gladstein_cv.tex
+(/Users/agladsteinNew/Documents/Jobs/CV/CV_repo/gladstein_cv.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(./resume.cls
+(/Users/agladsteinNew/Documents/Jobs/CV/CV_repo/resume.cls
 Document Class: resume 2010/07/10 v0.9 Resume class
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -24,36 +25,28 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/parskip/parskip.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen103
 \extrarowheight=\dimen104
 \NC@list=\toks14
 \extratabsurround=\skip43
 \backup@length=\skip44
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+)) (/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+ (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
@@ -67,18 +60,13 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
-))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+)) (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+ (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
-
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+ (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -97,15 +85,13 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
-)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO)
 Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
 Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
@@ -118,15 +104,12 @@ Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 
 
@@ -139,13 +122,11 @@ Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 \@linkdim=\dimen105
 \Hy@linkcounter=\count88
 \Hy@pagecounter=\count89
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count90
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -156,8 +137,7 @@ Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count91
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -186,15 +166,12 @@ Package hyperref Message: Driver (autodetected): hpdftex.
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count96
 \c@bookmark@seq@number=\count97
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
 \Hy@SectionHShift=\skip45
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count98
 \Gm@cntv=\count99
@@ -213,7 +190,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 LaTeX Warning: Unused global option(s):
     [10.5pt].
 
-(./gladstein_cv.aux)
+(/Users/agladsteinNew/Documents/Jobs/CV/CV_repo/gladstein_cv.aux)
 \openout1 = `gladstein_cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
@@ -230,8 +207,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
-
-(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count101
 \scratchdimen=\dimen117
@@ -249,8 +225,7 @@ LaTeX Font Info:    ... okay on input line 49.
 Package hyperref Info: Link coloring OFF on input line 49.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+ (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count107
@@ -258,8 +233,7 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 49.
 LaTeX Info: Redefining \pageref on input line 49.
 LaTeX Info: Redefining \nameref on input line 49.
-
-(./gladstein_cv.out) (./gladstein_cv.out)
+ (/Users/agladsteinNew/Documents/Jobs/CV/CV_repo/gladstein_cv.out) (/Users/agladsteinNew/Documents/Jobs/CV/CV_repo/gladstein_cv.out)
 \@outlinefile=\write3
 \openout3 = `gladstein_cv.out'.
 
@@ -298,10 +272,6 @@ LaTeX Info: Redefining \nameref on input line 49.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 49.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 49.
 
 Overfull \hbox (30.0pt too wide) in paragraph at lines 49--49
 [] 
@@ -311,69 +281,56 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 49.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 49.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 49.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 109.
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
-
- []
-
-
-Overfull \hbox (4.22968pt too wide) in paragraph at lines 113--123
+Overfull \hbox (4.22968pt too wide) in paragraph at lines 109--119
 [][] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 134.
+[1
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 132.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 134.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 132.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 134.
+(Font)              <8> on input line 132.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 134.
- [1
-
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 132.
+ [2]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
-
-(./gladstein_cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 303.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 303.
+ (/Users/agladsteinNew/Documents/Jobs/CV/CV_repo/gladstein_cv.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 303.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 303.
 Package rerunfilecheck Info: File `gladstein_cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 302.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 303.
  ) 
 Here is how much of TeX's memory you used:
- 5875 strings out of 493089
- 85675 string characters out of 6134842
- 187426 words of memory out of 5000000
+ 5877 strings out of 493089
+ 86374 string characters out of 6134842
+ 188406 words of memory out of 5000000
  9329 multiletter control sequences out of 15000+600000
  7970 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,9n,35p,547b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on gladstein_cv.pdf (3 pages, 163641 bytes).
+ 29i,9n,35p,594b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on /Users/agladsteinNew/Documents/Jobs/CV/CV_repo/gladstein_cv.pdf (4 pages, 157954 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
+ 92 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
