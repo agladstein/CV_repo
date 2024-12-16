@@ -30,8 +30,10 @@
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 
 \name{ARIELLA GLADSTEIN, PhD} % Your name
+% \name{MY NAME, PhD}
 %\address{} % Your address
 \address{algladstein@gmail.com} % Your phone number and email
+% \address{myemail@gmail.com}
 \address{\small \url{https://ariella-gladstein.netlify.app}  \\ \url{https://github.com/agladstein} \\ \url{www.linkedin.com/in/ariella-gladstein}} % Your phone number and email
 \renewenvironment{rSection}[1]{
 \sectionskip
@@ -47,12 +49,14 @@
 }
 
 \begin{document}
+
+\textcolor{RoyalPurple}{\bf Expertise:}
+\textcolor{RoyalPurple}{\em population genetics, genomics, computational biology, data science, machine learning}
+
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
-\textcolor{RoyalPurple}{\bf Expertise:}
-\textcolor{RoyalPurple}{\em population genetics, genomics, computational biology, data science, machine learning, statistics}
 
 \begin{rSection}{Education}
 
@@ -72,30 +76,28 @@ Departmental Honors: Mathematical Biology
 
 \begin{rSection}{Experience}
 
-{\bf Open Source Contributor} \hfill  2024\\ 
-{\em Tskit community} \hfill {\em Remote}\\
-Contirbuted to writing documentation and tutorials for the population genomics tskit ecosytem.
+% {\bf Open Source Contributor} \hfill  2024\\ 
+% {\em Tskit community} \hfill {\em Remote}\\
+% Contirbuted to writing documentation and tutorials for the population genomics tskit ecosytem.
 
 {\bf Research Scientist, Computational Biology} \hfill  2021 - 2024\\ 
 {\em Ancestry team} \hfill {\em Embark Veterinary, Remote}\\
-Developed dog breed ancestry and relative-matching products, enhancing computational efficiency while maintaining rigorous quality standards. Played a key role in improving pipeline automation from 40\% to over 95\% within one year and scaling processes from hundreds of thousands to millions of samples.
+Developed dog breed ancestry and relative-matching products, enhancing computational efficiency while maintaining rigorous quality standards. Played a key role in improving pipeline automation from 40\% to over 95\% within one year and scaling processes from hundreds of thousands to millions of samples. Collaborated with a cross-functional team on a science initiative projected to save \$7.5 million annually.
+Served on the Diversity, Equity, Inclusion, and Belonging (DEIB) committee, co-authoring an Inclusive Norms document, designing and analyzing company-wide DEIB surveys, and contributing to various DEIB initiatives.
+
 
 {\bf Postdoctoral Fellowship} \hfill  2018 - 2020\\ 
 {\em Schrider Lab} \hfill {\em Department of Genetics, University of North Carolina, Chapel Hill}\\
-Project: Inference of demographic history with deep learning
+Developed deep learning models for population genetics inference, utilizing high-throughput computing for simulations and high-performance GPUs, as well as a Kubernetes cluster, for model training. Contributed to writing documentation and tutorials for the population genomics tskit software ecosystem. Actively participated in the PopSim Consortium, contributing to the development of the stdpopsim library.
 
 {\bf Dissertation Research} \hfill  2011 - 2018\\ 
 {\em Hammer Lab} \hfill {\em Ecology and Evolutionary Biology, University of Arizona}\\
-Dissertation: Inference of recent demographic history of population isolates using genome-wide high density SNP arrays and whole genome sequences
+Developed and applied advanced computational methods in population genetics. Refactored a Python simulation pipeline to optimize memory usage and enable efficient parallel processing. Leveraged over 11 million CPU hours in under six months to run large-scale simulations on the Open Science Grid and multiple university HPCs, utilizing a high-throughput workflow.
 
-{\bf Functional Genomics Research Rotation} \hfill  Spring 2012\\ 
-{\em Restifo Lab} \hfill {\em Neuroscience, University of Arizona}
 
-{\bf Computational Genomics Research Rotation} \hfill  Fall 2011\\ 
-{\em Kececioglu Lab} \hfill {\em Computer Science, University of Arizona}
 
-{\bf Lab technician intern} \hfill  Sp, Fall 2009\\ 
-{\em Laboratory of Population Genetics} \hfill {\em Russian Academy of Medical Sciences, Moscow, Russia}
+
+
 
 \end{rSection}
 
@@ -107,72 +109,48 @@ Dissertation: Inference of recent demographic history of population isolates usi
 \begin{rSection}{Skills}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Programming & Python, R, Bash, (including unit testing and profiling)\\
-Other Computer & Linux command line, Git, HPC/HTC, cloud computing  \\
-Genomics & PLINK, Bedtools, VCFtools, phasing, imputation, haplotype detection, population \\ & structure, genome simulation\\
-Data Science & Numpy, Pandas, Scikit-learn, SciPy, Keras, Matplotlib, Seaborn, Plotly, ggplot \\
+Software Development & Python, R, Bash, unit testing, profiling, multiprocessing, Git\\
+HPC/HTC and Cloud & Linux/Unix, SLURM, PBS, AWS, JupyterHub, Kubernetes  \\
 Reproducibility & Workflow development (Pegasus, Makeflow, Snakemake), containers \\ & (Singularity, Docker), virtual environments, Jupyter, Knitr \\
-Documentation & \LaTeX, Markdown, reStructuredText \\
-Mathematical Skills & Probability theory, statistical inference, linear algebra \\
-Language Skills & English (native speaker), Russian (fluent) \\
+Genomics & PLINK, Bedtools, VCFtools, phasing, imputation, haplotype detection, population \\ & structure, genome simulation\\
+Data Science & Numpy, Pandas, Scikit-learn, SciPy, TensorFlow, Keras, Matplotlib, Seaborn, Plotly \\
+Documentation & \LaTeX, Markdown, reStructuredText, JupyterBook, Confluence \\
 \end{tabular}
 
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	Publications
+%	Teaching Experience
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Publications}
+\begin{rSection}{Teaching Experience}
 
-\item Lauterbur, M. E., Cavassim, M. I. A., \textbf{Gladstein, A. L.}, $\ldots$, Wong, Y., Baumdicker, F., Cartwright, R. A., Gorjanc, G., Gutenkunst, R. N., Kelleher, J., Kern, A. D. Ragsdale, A. P., Ralph, P. L., Schrider, D. R., Gronau, I. 2023. Expanding the stdpopsim species catalog, and lessons learned for realistic genome simulations \textit{eLife} 12:RP84874. \url{https://doi.org/10.7554/eLife.84874.3}
+    {\bf Introduction to using stdpopsim Workshop} \hfill 2020 \\ 
+    {\em Designed and presented workshop} \hfill {\em Virtual, PopSim Consortium}
 
-\item Baumdicker, F.*, Bisschop, G.*, Goldstein, D.*, Gower, G.*, Ragsdale, A. P.*, Tsambos, G.*, Zhu, S.*, $\ldots$, \textbf{Gladstein, A. L.}, $\ldots$, Kelleher, J. 2022. Efficient ancestry and mutation simulation with msprime 1.0. \textit{Genetics}. Volume 220, Issue 3. \url{https://doi.org/10.1093/genetics/iyab229}
+    {\bf Cyber Carpentry Workshop} \hfill 2019 \\ 
+    {\em Volunteer Teaching Assistant} \hfill {\em University of North Carolina, Chapel Hill}
 
-\item Adrion, J. R.*, Cole, C. B.*, Dukler, N.*, Galloway, J. G.*, \textbf{Gladstein, A. L.}\footnote{First author}, Gower, G.*, Kyriazis, C.C.*, Ragsdale, A.P.*, Tsambos, G.*, $\ldots$, Gravel, S., Gutenkunst, R.N., Lohmeuller, K.E., Ralph, P.L., Schrider, D.R., Siepel, A., Kelleher, J., Kern, A.D. 2020. A community-maintained standard library of population genetic models. \textit{eLife}. 9:e54967. doi: \url{https://doi.org/10.1101/2019.12.20.885129}
+    {\bf Research Bazaar Workshop on R} \hfill 2018 \\ 
+    {\em Volunteer Teaching Assistant} \hfill {\em University of Arizona}
 
-\item Bernstein M.N.*, \textbf{Gladstein A.}, Latt K.Z. et al. Jupyter notebook-based tools for building structured datasets from the Sequence Read Archive [version 2; peer review: 2 approved]. F1000Research 2020. 9:376. doi: \url{https://doi.org/10.12688/f1000research.23180.2}
+    {\bf CyVerse Container Camp} \hfill 2018 \\ 
+    {\em Volunteer Teaching Assistant} \hfill {\em University of Arizona}
 
-\item \textbf{Gladstein A.L.}* and Hammer M.F. 2019. Substructured population growth in the Ashkenazi Jews inferred with Approximate Bayesian Computation. \textit{Molecular Biology and Evolution}. 36(6): 1162-1171. doi: \url{https://dx.doi.org/10.1093/molbev/msz047}
+    {\bf Software Carpentry on Unix/Bash, Python, and Git} \hfill 2017 \\ 
+    {\em Volunteer Teaching Assistant} \hfill {\em University of Arizona}
 
-\item \textbf{Gladstein A.L.}* et al. 2018. SimPrily: A Python framework to simplify high-throughput genomic simulations. \textit{SoftwareX}, 7, 335-340. \url{https://doi.org/10.1016/j.softx.2018.09.003}
+    {\bf Tucson Women’s Hackathon workshop on Git} \hfill 2017 \\ 
+    {\em Volunteer Teaching Assistant} \hfill {\em University of Arizona}
 
-%\item Gladstein A.L., Watkins J., and Hammer, M.F. 2018. Reliability of runs of homozygosity detection from SNP arrays depends on algorithmic choices. (in preparation).
+    {\bf ECOL 320 Genetics} \hfill Fall 2014, 2015, 2016 \\ 
+    {\em Graduate Teaching Assistant} \hfill {\em University of Arizona}
 
-\item \textbf{Gladstein A.}* and Hammer M.F. 2016. Population Genetics of the Ashkenazim. In: \textit{eLS}. John Wiley \& Sons, Ltd: Chichester. pp. 1-8. \url{https://doi.org/10.1002/9780470015902.a0020818.pub2}
+    {\bf ECOL 182L Intro to Ecology and Evolutionary Biology Lab} \hfill Spring 2015 \\ 
+    {\em Graduate Teaching Assistant} \hfill {\em University of Arizona}
 
-\item Behar D.* et al. 2013. No evidence from genome-wide data of a Khazar origin for the Ashkenazi Jews. \textit{Human Biology}. 85.6:859-900. \url{https://doi.org/10.3378/027.085.0604}
-
-\item \textbf{Gladstein A.L.}* 2011. Split decomposition analysis groups Jewish populations together between European and Middle Eastern populations. \textit{The Beloit Biologist}. 30:29-36.
-
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
-%	Publications
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Posters and Presentations}
-
-\textbf{Invited Talks}
-\item  Deep learning for demographic model choice. Human Evolutionary and Population Genomics Seminar. 2020. LANGEBIO, UGA-Cinvestav. Irapuato-Guanajuato, Mexico (virtual).
-
-\item Inference of evolutionary history with Approximate Bayesian Computation. Open Science Grid All-Hands Meeting. 2018. Salt Lake City, Utah.
-
-\item Code optimization for research scientists. Research Bazaar. 2018. Tucson, AZ.
-
-\textbf{Posters}
-
-\item \textbf{Gladstein A.L.}\footnote{Presenter}, et al. A Novel Machine Learning Method for Classification of Village Dogs.  Probabilistic Modeling in Genomics. 2023. Cold Spring Harbor, NY.
-
-\item \textbf{Gladstein A.L.}\textsuperscript{\textdagger}, Schrider R.D.  Demographic model selection with deep learning.  Probabilistic Modeling in Genomics. 2019. Aussois, France.
-
-\item \textbf{Gladstein A.L.}\textsuperscript{\textdagger}, Hammer M.F. Substructured population growth in the Ashkenazi Jews inferred with Approximate Bayesian Computation. UNC Women in Computing Research Symposium. 2019. Chapel Hill, NC.
-
-\item \textbf{Gladstein A.L.}\textsuperscript{\textdagger}, Hammer M.F. Substructured population growth in the Ashkenazi Jews inferred with Approximate Bayesian Computation. Probabilistic Modeling in Genomics. 2018. Cold Spring Harbor, NY.
-
-\item \textbf{Gladstein A.L.}\textsuperscript{\textdagger}, et al. Efficient pipeline for whole genome simulation and summary statistic calculation with flexible demographic models. Meeting of the American Society for Human Genetics. 2017. Orlando, FL.
-
-\item \textbf{Gladstein A.L.}\textsuperscript{\textdagger}, et al. The effect of SNP array ascertainment bias on the distribution of runs of homozygosity lengths. Annual Meeting of the American Society for Human Genetics. 2015. Baltimore, MD. 
+    {\bf BIOL 247 Biometrics} \hfill Spring 2011 \\ 
+    {\em Teaching Assistant} \hfill {\em Beloit College}
 
 \end{rSection}
 
@@ -184,28 +162,11 @@ Language Skills & English (native speaker), Russian (fluent) \\
 
 XSEDE Research allocation (250,000 CPU hrs) \hfill{\em 2020}\\
 XSEDE Supplemental allocation (250,000 CPU hrs) \hfill{\em 2018, 2020}\\
-Probabilistic Modeling in Genomics Grant (registration, meals, lodging) \hfill{\em 2018, 2019}\\
 XSEDE Startup allocation (100,000 CPU hrs, 6,500 GPU hrs, 5.5 Tb storage) \hfill{\em 2019}\\
 XSEDE Startup allocation (150,000 CPU hrs) \hfill{\em 2017}\\
 Open Science Grid User School (travel, lodging, meals, cost of program) \hfill{\em 2017}\\
-GPSC Travel Grant (\$761) \hfill{\em 2015, 2016, 2017} \\
-University of Arizona Galileo Circle Scholarship (\$1,000) \hfill{\em 2015} \\
 NIH Computational and Mathematical Modeling of Biological Systems Traineeship (\$71,064) \hfill {\em 2013-14}\\
 NSF Integrative Graduate Education and Research Traineeship in Genomics (\$97,083) \hfill {\em 2011-13}\\
-Society for Learning Unlimited Grant (\$2,000) \hfill {\em Fall 2009}\\
-Study Abroad Enhancement Grant, Beloit College (\$250) \hfill {\em Spring 2009}\\
-Beloit College Presidential Scholar (\$60,000) \hfill {\em 2007-2011}
-
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
-%	Project Management
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Project Management}
-
-Managed team of 5, including computer scientists, software engineer, and mathematician, \hfill {\em 2017}\\ 
-working on code development and high throughput computing for bioinformatics
 
 \end{rSection}
 
@@ -224,66 +185,33 @@ Open Science Grid User School, Madison, WI (1 week) \hfill {\em 07/2017}
 
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
-%	Community Service
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Community Service and Outreach}
-
-\textbf{Mentoring}\\
-Undergraduate interns in computer science, Tucson, AZ \hfill {\em 2017}\\
-Arizona Assurance Mentor \hfill {\em 2012}
-
-\textbf{Teaching in community}\\
-Introduction to stdpopsim workshop, Virtual \hfill {\em 2020}\\
-Cyber Carpentry workshop, Chapel Hill, NC \hfill {\em 2019}\\
-Research Bazaar workshop on R, Tucson, AZ \hfill {\em 2018}\\
-CyVerse Container Camp, Tucson, AZ \hfill {\em 2018}\\
-Software Carpentry on Unix/Bash, Python, and Git, Tucson, AZ \hfill {\em 2017}\\
-Tucson Women’s Hackathon workshop on Git, Tucson, AZ \hfill {\em 2017}\\
-Population Genetics Module at the Kino School, Tucson, AZ \hfill {\em 2013}
-
-\textbf{Judge}\\
-Graduate \& Professional Student Council Travel Grants, Tucson, AZ \hfill {\em 2012, 2016, 2017, 2018}\\
-Tucson Magnet High School Science Fair, Tucson, AZ \hfill {\em 2012, 2015}\\
-EEB Undergraduate Research Poster Session, Tucson, AZ \hfill {\em 2012}
-
-\end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	Teaching Experience
+%	Publications
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Teaching Experience}
+\begin{rSection}{Select Publications, Posters, \& Talks}
 
-{\bf ECOL 320 Genetics} \hfill Fall 2014, 2015, 2016 \\ 
-{\em Graduate Teaching Assistant} \hfill {\em University of Arizona}
-
-{\bf ECOL 182L Intro to Ecology and Evolutionary Biology Lab} \hfill Spring 2015 \\ 
-{\em Graduate Teaching Assistant} \hfill {\em University of Arizona}
-
-{\bf BIOL 247 Biometrics} \hfill Spring 2011 \\ 
-{\em Teaching Assistant} \hfill {\em Beloit College}
-
-{\bf RUSS 110, 115, 210, 215 Russian} \hfill 2009-2011 \\ 
-{\em Tutor} \hfill {\em Beloit College}
-
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
-%	Study Abroad
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Study Abroad}
-
-{\bf Lomonosov Moscow State University} \hfill Fall 2009 \\ 
-{\em Biology Department} \hfill {\em Moscow, Russia}
-
-{\bf Russian State University for the Humanities} \hfill Spring 2009 \\ 
-{\em Russian Studies} \hfill {\em Moscow, Russia}
-
-\end{rSection}
-%----------------------------------------------------------------------------------------
+    \item \textbf{Gladstein A.L.}\footnote{Presenter}, et al. A Novel Machine Learning Method for Classification of Village Dogs.  Probabilistic Modeling in Genomics. 2023. Cold Spring Harbor, NY. (Poster)
+        
+    \item Baumdicker, F.*, Bisschop, G.*, Goldstein, D.*, Gower, G.*, Ragsdale, A. P.*, Tsambos, G.*, Zhu, S.*, $\ldots$, \textbf{Gladstein, A. L.}, et al. 2022. Efficient ancestry and mutation simulation with msprime 1.0. \textit{Genetics}. Volume 220, Issue 3. \url{https://doi.org/10.1093/genetics/iyab229}
+    
+    \item Adrion, J. R.*, Cole, C. B.*, Dukler, N.*, Galloway, J. G.*, \textbf{Gladstein, A. L.}\footnote{First author}, Gower, G.*, Kyriazis, C.C.*, Ragsdale, A.P.*, Tsambos, G.*, et al. 2020. A community-maintained standard library of population genetic models. \textit{eLife}. 9:e54967. doi: \url{https://doi.org/10.1101/2019.12.20.885129}
+    
+    
+    \item \textbf{Gladstein A.L.}\textsuperscript{\textdagger}, Schrider R.D.  Demographic model selection with deep learning.  Probabilistic Modeling in Genomics. 2019. Aussois, France. (Poster)
+    
+    
+    \item \textbf{Gladstein A.L.}* and Hammer M.F. 2019. Substructured population growth in the Ashkenazi Jews inferred with Approximate Bayesian Computation. \textit{Molecular Biology and Evolution}. 36(6): 1162-1171. doi: \url{https://dx.doi.org/10.1093/molbev/msz047}
+    
+    \item Inference of evolutionary history with Approximate Bayesian Computation. Open Science Grid All-Hands Meeting. 2018. Salt Lake City, Utah. (Talk)
+    
+    \item Code optimization for research scientists. Research Bazaar. 2018. Tucson, AZ. (Talk)
+    
+    \item \textbf{Gladstein A.L.}* et al. 2018. SimPrily: A Python framework to simplify high-throughput genomic simulations. \textit{SoftwareX}, 7, 335-340. \url{https://doi.org/10.1016/j.softx.2018.09.003}
+    
+    
+    \end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	Other Activities
